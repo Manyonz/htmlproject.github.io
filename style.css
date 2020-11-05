@@ -1,0 +1,85 @@
+body{
+  font-family:"Lato", sans-serif;
+  font-size: 16px;
+  line-height:1.8em;
+  margin:0;
+  font-weight: 400px;
+  color:#666;
+  overflow-x:hidden;
+}
+
+ul{
+  list-style: none;
+}
+
+.pimg1{
+  background-image: url(../Images/bokeh-night-lights-city-9044.jpg);
+  min-height:100vh;
+}
+
+.pimg2{
+  background-image: url(../Images/buildings-near-body-of-water-3467149.jpg);
+  min-height:400px;
+}
+
+.pimg3{
+  background-image: url(../Images/photography-of-roadway-during-dusk-1034662.jpg);
+  min-height:400px;
+}
+
+.pimg4{
+  background-image: url(../Images/photo-of-bonfire-3268257.jpg);
+  min-height:400px;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4{
+  position:relative;
+  background-position: center;
+  background-size:cover;
+  background-repeat:none;
+  background-attachment: fixed;
+
+}
+
+.ptext{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align: center;
+  line-height: 3.0;
+}
+
+.border{
+  padding:20px 80px;
+  background:#282e34;
+  color:#ddd;
+  text-transform: uppercase;
+  letter-spacing:1.2em;
+  opacity:0.70;
+  font-size:20px;
+  line-height: 1.2;
+}
+
+.section{
+  text-align: center;
+  padding: 20px 80px;
+}
+
+.section-dark{
+  background-color:#282e34;
+  color:#666;
+}
+
+/*.section-light{
+  background-color:#f4f4f4;
+  color:#222;
+}*/
+
+@media(max-width:580px){
+  .pimg1, .pimg2, .pimg3, .pimg4{
+    background-attachment: scroll;
+  }
+  .border{
+    font-size: 12px;
+  }
+}
